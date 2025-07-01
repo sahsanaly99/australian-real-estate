@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/sahsanaly99/australian-real-estate/refs/heads/main/dataset/aus_real_estate.csv?token=GHSAT0AAAAAADGTFJNOGTIHPQYGFIJ6QOFK2DD32MA",
+			"url": "https://raw.githubusercontent.com/sahsanaly99/australian-real-estate/refs/heads/main/dataset/aus_real_estate.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
