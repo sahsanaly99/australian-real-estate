@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AusRealEstateDL",
+						"referenceName": "ADLS1",
 						"type": "DatasetReference"
 					}
 				]
