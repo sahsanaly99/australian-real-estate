@@ -1,0 +1,25 @@
+{
+	"name": "AusRealEstate",
+	"properties": {
+		"Name": "AusRealEstate",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://australianrealestate@australianrealestate.dfs.core.windows.net/AusRealEstate",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "aus-real-estate-sa-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 5,
+		"ObjectId": "c3854561-4438-4ee7-9799-a48292607af8"
+	},
+	"type": "DATABASE"
+}
